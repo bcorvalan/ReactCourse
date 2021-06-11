@@ -3,7 +3,9 @@ import './App.css';
 //import DisplayUser from './components/DisplayUser'
 //import LifeCycleHooks from "./components/LifeCycleHooks"
 //import ClassComponentExample from './components/ClassComponentExample'
-import Map from './components/Map'
+//import Map from './components/Map'
+//import HowToFetchData from './components/HowToFetchData'
+import FetchPokeApi from './components/FetchPokeApi'
 function App() {
   return (
     <div className="App">
@@ -11,7 +13,9 @@ function App() {
       {/* <DisplayUser/>*/}
       {/* <DisplayUser/>*/}
       {/* <LifeCycleHooks/>*/}
-      <Map/>
+      {/*<Map/>*/}
+      {/*<HowToFetchData/>*/}
+      <FetchPokeApi/>
     </div>
   );
 }
